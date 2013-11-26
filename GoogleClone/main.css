@@ -1,0 +1,177 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End Clear */
+/* Begin Style */
+
+nav a {
+	text-decoration: none;
+	color: #000000;
+	font-family: arial, sans-serif;
+	font-size: 14px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+/* header */
+
+nav.header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+}
+
+nav.header ul {
+	float: right;
+}
+
+nav.header ul li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 8px;
+	font-size: 9px;
+}
+
+nav.header ul li a img {
+	position: relative;	
+	top: 10px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav ul li a img.google_icons {
+	bottom: -5px;
+}
+
+/*Big Google Logo*/
+
+div.hero {
+	margin-top: 200px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/* form */
+
+div.searchbuttons {
+	width: 260px;
+	margin: auto;
+}
+
+form {
+	text-align: center;
+}
+
+form input {
+	height:22px; 
+	width:600px;
+}
+
+input.submit, input.random {
+	margin: 5px;
+	margin-top: 8px;
+	height: 30px;
+	width: 120px;
+	border-radius: 0%;
+	position: relative;
+	font-size: 11px;
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}
+input.submit {
+	float: left;
+}
+
+input.random {
+	float: right;
+}
+
+
+/* footer */
+
+footer {
+	background-color: #F2F2F2;
+	clear: both;
+	width: 100%;
+	height: 40px;
+	bottom: 1px;
+	position: absolute;
+	border-top: #E5E5E5;
+}
+footer ul {
+	margin-top: 15px;
+}
+
+footer ul li {
+	color: #666;
+	display: inline;
+	margin: 8px;
+	padding: 7px;
+	margin-top: 70px;
+	font-family: Arial, sans-serif;
+}
+ footer ul li a {
+ 	color: #666;
+ 	text-decoration: none;
+ 	font-size: 13px;	
+ }
+
+footer ul.left {
+	float: left;
+}
+
+footer ul.right {
+	float: right;
+}
+ footer ul li span {
+ 	color: #B14436;
+ 	font-family: inherit;
+ 	padding: 3px;
+ }
